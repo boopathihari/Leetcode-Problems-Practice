@@ -9,7 +9,7 @@ class BestPokerHand {
         // 1. "Flush": Five cards of the same suit.
         for(int i=0; i<suits.length; i++){
             
-            for(int j=i+1 ; j<suits.length ; j++){
+            for(int j=i+1 ; j<suits.length ; j++){ 
                 if(suits[j] == suits[i]){
                      if(suits[j] != pairChar[0]){
                     count = 0;
